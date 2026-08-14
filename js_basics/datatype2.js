@@ -1,4 +1,4 @@
-/*
+
 //  Primitive
 
 //  7 types : String, Number, Boolearn, null, undefined, Symbol, BigInt
@@ -36,7 +36,7 @@ const myFunction = function(){
 console.log(typeof anotherId);
 
 // https://262.ecma-international.org/5.1/#sec-11.4.3
-*/
+
 //Primitive
 let name1 = "harshit";
 let name2 = name1;
@@ -56,4 +56,4 @@ let user2 = user1;
 user2.email = "user2";
 user2.name = "amit";
 console.log(user1);
-console.log(user2);
+console.log(user2);// in oobject it passes directly the location of object
