@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DOM learniing</title>
+</head>
+<body>
+  <div class="bg-black">
+    <h1 class="heading">Harsh and Ajay</h1>
+    <p>Lorem ipsum dolor sit amet</p>
+  </div>
+</body>
+</html>
+<!--
+The Document Object Model (DOM) is a structured way for web browsers to represent and interact with HTML pages, treating every part of a page (like tags, text, and attributes) as objects.(It's how JavaScript “talks” to HTML.)
+The DOM is explained as a model that represents the structure of an HTML document as a tree of objects (head, body, p, img ). Every element, attribute, and text is considered a "node" in this tree
+
+    Example HTML:
+    <html>
+    <body>
+        <h1>Hello</h1>
+        <p>Paragraph</p>
+    </body>
+    </html>
+
+    Corresponding DOM Tree:
+
+    Document
+    └── html
+        └── body
+            ├── h1
+            │    └── "Hello"
+            └── p
+                └── "Paragraph"
+
+# Window and Document :-
+-The browser creates a window object that represents the browser tab or window.
+-window contains many properties and methods — one of them is document.
+-The document object represents the webpage and provides access to:
+    HTML elements.
+    Document structure.
+    Methods for DOM manipulation.
+
+    console.log(window.document); // Outputs the entire HTML document and methods for manipulation
+    console.log(document); //outputs entire document
+    console.dir(windows); //Outputs the entire HTML document and methods for manipulation
+
+
+!! Collections like HTMLCollection or NodeList are used to handle groups of elements, but they differ from standard arrays.
+
+  -->
